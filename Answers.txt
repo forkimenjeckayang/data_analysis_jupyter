@@ -1,0 +1,27 @@
+Which transaction type is the most frequent?
+    From the bar graph we see that he cashout is the most frequent transaction type
+    
+Do most transactions involve smaller or larger amounts?
+    From the data provided most transactions involve a higher amount
+    
+Which transaction type is most commonly marked as fraudulent?
+    Both the cashout and transfer type since from the data provided and analysed, they showed a 
+    possible sign of beign a Fraud.
+    
+Plot a scatter plot with oldbalanceOrg on the x-axis and newbalanceOrig on the y-axis. Can you identify any patterns?
+      the linear base from points 0-1 on the x-axis represent the account balance when    oldbalanceOrg and newbalanceOrig are thesame. The parallel movement of the points towards the top-right of the plot suggests a consistent pattern of transaction activity given the alterations(incrementing or decrementing)
+      
+How many transactions are flagged as fraud?
+    From the graph no transaction is flagged as fraud
+
+Are all flagged fraud transactions also marked as fraud in the isFraud column?
+   None and vise versa
+   
+Based on the visualizations, can you identify any specific pattern or characteristic that might be a strong indicator of a transaction being fraudulent?
+    Transaction Type: if a particular transaction type has a significantly higher count of fraudulent transactions compared to others, it could indicate a pattern.
+
+Transaction Amount: if fraudulent transactions tends to involve larger amounts or fall within a specific range, it could suggest a pattern.
+
+Flagged Fraud: If the number of flagged fraud transactions is significantly lower than the number of actual fraudulent transactions, it might indicate a weak fraud detection system.
+
+Balance Analysis:If there are clusters or distinct patterns where a large number of fraudulent transactions exhibit specific changes in account balances, it could be an indicator of fraudulent activity.
